@@ -13,5 +13,4 @@ max_level_p = arr.index(max_level_v)
 #   coin += (coin + arr[i])
 
 while 
-
-print(f'coin : {coin}')
+  print(f'coin : {coin}')
