@@ -1,0 +1,77 @@
+body{
+  background-color: darkgreen;
+}
+
+.bgImage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+
+.form{
+  display: none;
+}
+
+.greetings{
+  display: none;
+}
+
+.showing{
+  display: block;
+}
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+/* custom styles */
+.js-clock{
+  color: #ffffff;
+  font-size: 55px;
+  text-align: center;
+  text-decoration: none;
+  transition: 1s;
+}
+.js-clock:hover { text-shadow: 0 0 .1em, 0 0 .3em; }
+
+.js-weather{
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.js-weather:hover { text-shadow: 0 0 .1em, 0 0 .3em; }
+
+.js-greetings{
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+.js-greetings:hover { 
+  text-shadow: 0 0 .1em, 0 0 .3em; 
+}
+
+#todoinput{
+  width: 30%;
+  font-size: 24px;
+  margin-left: 35%;
+  outline: none;
+
+}
+
+.js-toDoList{
+  text-align: center;
+}
+
+li{
+  color: #ffffff;
+  font-size: 20px;
+  list-style: none;
+}

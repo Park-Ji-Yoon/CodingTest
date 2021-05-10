@@ -1,5 +1,4 @@
 const clockContainer = document.querySelector(".js-clock");
-console.log(clockContainer)
 const clockTitle = clockContainer.querySelector("h1");
 
 function getTime(){
@@ -11,8 +10,8 @@ function getTime(){
 }
 
 function init(){
-  getTime();
-  setInterval(getTime, 1000);
+  getTime(); // getTime()함수 처음 호출
+  setInterval(getTime, 1000);  // getTime()함수 1초에 한 번씩 호출
 }
 
-init();
+init(); // init()함수 호출
