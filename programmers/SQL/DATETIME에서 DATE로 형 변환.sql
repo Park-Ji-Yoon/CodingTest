@@ -1,0 +1,2 @@
+SELECT ANIMAL_ID, NAME, DATE_FORMAT(DATETIME, '%Y-%m-%d') FROM ANIMAL_INS
+--ANIMAL_INS테이블에서 ANIMAL_ID, NAME, DATETIME을 출력하는 데 이때 날짜 포맷을 '%Y-%m-%d'로 변경하여 출력한다
