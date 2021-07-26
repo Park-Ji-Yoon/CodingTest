@@ -1,7 +1,7 @@
 n = int(input())
 array = list(map(int, input().split()))
 
-array.reverse()
+array.reverse() # 배열 뒤집기
 
 dp = [1] * n
 
