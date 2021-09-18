@@ -1,3 +1,4 @@
+// variables
 const cartContainer = document.querySelector(".cart-container");
 const productList = document.querySelector('.product-list');
 const cartList = document.querySelector('.cart-list');
