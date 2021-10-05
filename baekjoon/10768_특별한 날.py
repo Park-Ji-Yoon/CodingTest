@@ -1,0 +1,5 @@
+mon = int(input())
+day = int(input())
+if mon == 2 and day == 18: print("Special") 
+elif mon == 1 or (mon == 2 and day < 18): print("Before")
+else: print("After")
